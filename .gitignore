@@ -1,0 +1,25 @@
+# Environments & Secrets (Prohibited in Submission)
+.env
+.env.local
+.env.*.local
+venv/
+env/
+ENV/
+*.pem
+*.key
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+taskflow.db
+
+# Node & Next.js build artifacts
+node_modules/
+.next/
+out/
+build/
+dist/
+.DS_Store
+*.log
